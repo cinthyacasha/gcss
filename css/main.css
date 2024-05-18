@@ -36,14 +36,35 @@ li {
     font-weight: normal;
 }
 
+/* Padding utilizado en la navbar */
 .icon-padding {
     margin-right: 10px;
 }
 
+/* CSS de la hero area */
 .hero-text {
     margin-top: 60px;
 }
 
 .hero-image {
     margin-top: 60px;
+}
+
+/* CSS para cambiar el background de About us */
+.abus-background {
+    background-color: #E9E7E6;
+}
+
+.abus-text-bg {
+    background-color: #F5F5F4;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    position: relative; 
+    top: -180px;
+}
+
+.abus-img {
+    max-width: 100%;
+    height: auto;
 }
