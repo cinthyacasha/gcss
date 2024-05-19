@@ -69,9 +69,19 @@ li {
     height: auto;
 }
 
+/* CSS para la sección de estádisticas */
 .stat-img {
     max-width: 100%;
-    height: 300px;
+    height: auto;
     position: relative; 
     top: -120px;
+}
+
+/* css tarjeta de servicios */
+.servicios-card {
+    border: 1px solid #E9E7E6;
+    border-radius: 6px;
+    min-height: 100%;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px rgba(165, 161, 153, 0.5);
 }
