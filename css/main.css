@@ -78,6 +78,11 @@ li {
 }
 
 /* css tarjeta de servicios */
+.services-container {
+    position: relative; 
+    top: -50px;
+}
+
 .servicios-card {
     border: 1px solid #E9E7E6;
     border-radius: 6px;
