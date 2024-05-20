@@ -78,10 +78,54 @@ li {
 }
 
 /* css tarjeta de servicios */
+.services-container {
+    /* background-image: url(images\fondo-services.png); */
+    position: relative; 
+    top: -50px;
+}
+
 .servicios-card {
     border: 1px solid #E9E7E6;
     border-radius: 6px;
     min-height: 100%;
     max-width: 400px;
     box-shadow: 0px 0px 10px rgba(165, 161, 153, 0.5);
+}
+
+.banner-cu-container {
+    background-color: #1F1300;
+    color: #E9E7E6;
+    padding: 100px;
+}
+
+/* CSS news */
+.news-container {
+    max-width: 100%;
+}
+
+.news-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.news-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.news-card img {
+    height: 200px;
+    object-fit: cover;
+}
+.news-card-body {
+    padding: 15px;
+}
+.news-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+.news-card-text {
+    font-size: 1rem;
+    color: #6c757d;
 }
