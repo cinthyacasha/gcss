@@ -97,3 +97,35 @@ li {
     color: #E9E7E6;
     padding: 100px;
 }
+
+/* CSS news */
+.news-container {
+    max-width: 100%;
+}
+
+.news-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.news-card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.news-card img {
+    height: 200px;
+    object-fit: cover;
+}
+.news-card-body {
+    padding: 15px;
+}
+.news-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+.news-card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
