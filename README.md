@@ -5,7 +5,7 @@ GCSS es una empresa familiar dedicada a la venta, distribución, mantenimiento y
 en prevención de pérdidas. Gerardo Castañeda, CEO de GCSS, nos contactó para iniciar su presencia digital. 
 Buscaban una plataforma en línea donde los clientes pudieran familiarizarse con los sistemas de prevención de pérdidas y los servicios 
 especializados que ofrecen.
-![GC Security Solutions]()
+[GC Security Solutions](https://gcss-test.netlify.app)
 
 ## Objetivo del Proyecto:
 - Crear un sitio web atractivo y funcional que represente a GCSS en el ámbito digital.
