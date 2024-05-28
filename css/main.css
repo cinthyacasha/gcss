@@ -56,15 +56,14 @@ a {
     margin-top: 60px;
 }
 
-.hero-image {
-    margin-top: 150px;
-    margin-bottom: 40px;
+.heroIcon {
+    color: #B0CA54 ;
 }
 
 /* CSS para cambiar el background de About us */
 .abus-background {
-    background-color: #E9E7E6;
-    max-height: 730px;
+    background-color: #D2D0CC;
+    max-height: auto;
 }
 
 .abus-text-bg {
@@ -158,6 +157,7 @@ footer {
 .solucion-container {
     position: relative; 
     top: -150px;
+    height: auto;
 }
 
 .question-section {
