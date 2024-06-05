@@ -39,10 +39,85 @@ li,a {
 a {
     text-decoration: none;
 }
+
+/* UI KIT */
+.colorTextoHeadings {
+    color: #1F1300;
+}
+
+.colorTextSecundario {
+    color: #625A4D;
+}
+
+.colorTextoBlanco {
+    color: #E9E7E6;
+}
+
+.colorTextLinkP {
+    color: #1F1300;
+    text-decoration: none;
+}
+
+.colorTextLinkP:hover {
+    color: #797166;
+    text-decoration: none;
+}
+
+.colorTextLink {
+    color: #625A4D;
+    text-decoration: none;
+}
+
+.colorTextLink:hover {
+    color: #4C4233;
+    text-decoration: none;
+}
+
+.colorTextLinkBlanco {
+    color: #E9E7E6;
+    text-decoration: none;
+}
+
+.colorTextLinkBlanco:hover {
+    color: #A5A199;
+    text-decoration: none;
+}
+
+.buttonPrincipal {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20px; 
+    background-color: #A5C23B ; 
+    color: #352B1A;
+    padding: 8px 5px;
+    border-radius: 6px;
+    border: none;
+}
+
+.buttonPrincipal:hover { 
+    background-color: #8EB30A ; 
+    color: #352B1A;
+}
+
+.buttonSecundario {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20px; 
+    background-color: none; 
+    color: #352B1A;
+    padding: 8px 5px;
+    border-radius: 6px;
+    border: 1px solid #D2D0CC;
+}
+
+.buttonSecundario:hover { 
+    background-color: #D2D0CC ; 
+    color: #352B1A;
+}
+
 /* Padding utilizado en la navbar */
-.icon-padding {
+.navbar .icon-padding {
     margin-right: 10px;
 }
+
 
 /* CSS de la hero area */
 .hero-container {
@@ -52,35 +127,18 @@ a {
     background-position: center;
 }
 
-.hero-text {
-    margin-top: 60px;
-}
-
-.heroIcon {
-    color: #B0CA54 ;
-}
-
 /* CSS para cambiar el background de About us */
 .abus-background {
-    background-color: #D2D0CC;
+    background-color: #F8F9FA;
     max-height: auto;
 }
 
-.abus-text-bg {
-    background-color: #F5F5F4;
-    max-width: 100%;
-    height: auto;
-    border-radius: 6px;
-    position: relative; 
-    top: -180px;
+.abus-background .iconAbus {
+    color: #4C4233;
 }
 
-.abus-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* CSS para la sección de estádisticas */
+/* CSS para la sección de Sistemas */
+.stat-container 
 .stat-img {
     max-width: 100%;
     height: 150px;
@@ -88,12 +146,11 @@ a {
 
 .stat-container a {
     text-decoration: none;
-    height: 200px;
+    height: 250px;
 }
 
 .stat-container {
-    position: relative;
-    top: -100px;
+    background-color: #F8F9FA ;
 }
 
 /* CSS Services Section */
@@ -107,9 +164,11 @@ a {
 
 /* CSS Banner Container */
 .banner-cu-container {
-    background-color: #1F1300;
-    color: #E9E7E6;
-    padding: 100px;
+    background-image: url(/images/banner-contactame.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #D2D0CC;
 }
 
 /* CSS news */
@@ -155,9 +214,10 @@ footer {
 
 /* Dime tu problema, te doy soluciones */
 .solucion-container {
-    position: relative; 
-    top: -150px;
-    height: auto;
+    background-image: url(/images/banner-herramienta.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .question-section {
@@ -204,6 +264,21 @@ footer {
 }
 
 /* CSS Google maps */
-#map {
+.mapResponsive {
+    max-width: 100%;
+    border-radius: 10px;
+    min-height: 100%;
+}
+
+.mapResponsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-  }
+    border: 0;
+}
+
+.mapContent {
+    min-height: 100%;
+}
