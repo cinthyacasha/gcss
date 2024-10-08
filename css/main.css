@@ -639,6 +639,11 @@ figure .piefoto {
     object-fit: cover;
 }
 
+
+.lineasguia {
+    border: 1px, solid, red;
+}
+
 /* ----- Página: Sistemas de detección----- */
 /* Tipos de tecnologías */
 /* Estilo del Container */
@@ -647,111 +652,57 @@ figure .piefoto {
     background-color: #F8F9FA;
 }
 
-.lineasguia {
-    border: 1px, solid, red;
-}
-
-/* Estilo de las tarjetas */
+/* Estilo de la img */
 .tecnologiaseas
-.tecnologiacard-leftup {
-    height: fit-content;
-    border-radius: 25% 25% 0% 25%;
-    filter: drop-shadow(#8F8980 0.5rem 0.5rem 10px);
-    padding: 40px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px, solid, #E9E7E6;
-    background-color: #E9E7E6;
-    position: relative;
-    z-index: 1;
-}
-
-.tecnologiaseas
-.tecnologiacard-leftdown {
-    height: fit-content;
-    border-radius: 25% 0% 25% 25%;
-    filter: drop-shadow(#8F8980 0.5rem 0.5rem 10px);
-    padding: 40px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px, solid, #E9E7E6;
-    background-color: #E9E7E6;
-    position: relative;
-    z-index: 1;
-}
-
-.tecnologiaseas
-.tecnologiacard-rightup {
-    height: fit-content;
-    border-radius: 25% 25% 25% 0%;
-    filter: drop-shadow(#8F8980 0.5rem 0.5rem 10px);
-    padding: 40px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px, solid, #E9E7E6;
-    background-color: #E9E7E6;
-    position: relative;
-    z-index: 1;
-}
-
-.tecnologiaseas
-.tecnologiacard-rightdown {
-    height: fit-content;
-    border-radius: 0% 25% 25% 25%;
-    filter: drop-shadow(#8F8980 0.5rem 0.5rem 10px);
-    padding: 40px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px, solid, #E9E7E6;
-    background-color: #E9E7E6;
-    position: relative;
-    z-index: 1;
-}
-
-.tecnologiaseas
-.tecnologiacard-leftup:hover {
-    transform: translateY(-5px);
-}
-
-.tecnologiaseas
-.tecnologiacard-rightup:hover {
-    transform: translateY(-5px);
-}
-
-.tecnologiaseas
-.tecnologiacard-leftdown:hover {
-    transform: translateY(-5px);
-}
-
-.tecnologiaseas
-.tecnologiacard-rightdown:hover {
-    transform: translateY(-5px);
-}
-
-/* Estilo del texto/img de la tarjeta */
-.tecnologiacard
-.tecnologiacard-title {
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tecnologiaseas
-.tecnologiacard-img {
-    background-image: url(/images/tecnologias-eas-vector2.png);
+.img-tecnologiaseas {
     background-color: #F8F9FA;
-    filter: drop-shadow(#8F8980 0rem 0rem 10px);
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    border-radius: 100%;
-    height: 300px;
-    object-fit: fill;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 2045px;
-    left: 670px;
-    z-index: 10;
+    max-width: 100%;
+    height: 29rem;
+    border-radius: 2%;
+    object-fit: cover;
+}
+
+/* Estilo del accordion */
+#tecnologiaseas-accordion 
+.accordion-body {
+    font-family: "Roboto Slab", sans-serif;
+    background-color: #F8F9FA;
+    padding: 15px;
+    font-size: 16px;
+    color: #1F1300;
+}
+
+#tecnologiaseas-accordion
+.accordion-item {
+    border: 1px solid #625A4D;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#tecnologiaseas-accordion
+.accordion-header {
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 0;
+}
+
+#tecnologiaseas-accordion
+.accordion-button.collapsed {
+    background-color: #BCB8B3;
+    color: #1F1300;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#tecnologiaseas-accordion
+.accordion-button:not(.collapsed) {
+    background-color: #8EB30A;
+    color: #1F1300;
+    border-color: #E2E73E;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 /* ---------- Página: Sistemas de Detección ------- */
