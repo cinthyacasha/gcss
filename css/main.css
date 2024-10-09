@@ -632,12 +632,7 @@ figure .piefoto {
 }
 
 .center-container
-.imgcenter-medio {
-    width: 100%;
-    height: 25rem;
-    border-radius: 1%;
-    object-fit: cover;
-}
+
 
 
 .lineasguia {
@@ -645,9 +640,26 @@ figure .piefoto {
 }
 
 /* ----- Página: Sistemas de detección----- */
+/* Explicación de los EAS */
+/* Estilo del Container */
+.textoarticulo-container
+.explicacioneas {
+    background-color: #F8F9FA;
+}
+
+/* Estilo de la imagen */
+.explicacioneas
+.imgcenter-medio {
+    width: 100%;
+    height: 25rem;
+    border-radius: 1%;
+    object-fit: cover;
+}
+
+/* ----- Página: Sistemas de detección----- */
 /* Tipos de tecnologías */
 /* Estilo del Container */
-.center-container
+.textoarticulo-container
 .tecnologiaseas {
     background-color: #F8F9FA;
 }
