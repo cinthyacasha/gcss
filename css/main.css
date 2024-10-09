@@ -498,7 +498,8 @@ div {
     color: #1F1300;
 }
 
-/* ----- Página: Sistemas de detección Heroarea----- */
+/* ----- Página: Sistemas de detección ----- */
+/* Heroarea */
 /* Estilo del container */
 .sistemasdeteccion-container {
     background-image: url(/images/sistemas-deteccion2.jpg);
@@ -524,66 +525,57 @@ h2 {
     color: #E9E7E6;
 }
 
-/* ----- Página: Sistemas de detección texto----- */
+.lineasguia {
+    border: 1px, solid, red;
+}
+
+/* ----- Página: Sistemas de detección ----- */
+/* Artículo */
 /* Estilo del container */
 .textoarticulo-container {
     background-color: #F8F9FA;
-    border: 1px, solid, red;
     height: fit-content;        
 }
 
-/* Estilo del texto */
+/* Explicación de prevención de pérdidas */
+/* Estilo del Container */
 .textoarticulo-container
-h2 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 52.36;
-    font-weight: bold;
-    color: #1F1300;
+.lossprevention {
+    background-color: #F8F9FA;
 }
 
-.textoarticulo-container
-h3 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 32.36;
-    font-weight: bold;                            color: #625A4D;  
-}
-
-.textoarticulo-container
-p {
-    font-family: "Roboto Slab", sans-serif;
-    font-size: 20;
-    font-weight: normal;
-    color: #1F1300;
-}
-
-
-/* Side Card Sistemas */
-.textoarticulo-container
+/* Estilo Sidecard */
+.lossprevention
 .sidecard-container {
     border: 1px, solid, #E9E7E6;
-    margin: 5%;
-    border-radius: 5%;
-    height: 180px;
+    margin: 20%;
+    border-radius: 2%;
     background-color: #E9E7E6;
-    filter: drop-shadow(#8F8980 0.5rem 0.5rem 10px);
-    height: fit-content;
+    max-width: 100%;
 }
 
-.textoarticulo-container
+.lossprevention
 .sidecard-container:hover {
-    border: 1px, solid, #8F8980;
-    background-color: #8F8980
+    border: 1px, solid, #BCB8B3;
+    background-color: #BCB8B3;
+    filter: drop-shadow(#FCFDEC 0.1rem 0.1rem 10px);
 }
 
 .sidecard-container
-.imgsidecard {
-    background-image: url(/images/sistemas-deteccion2.jpg);
-    background-size: cover;
-    overflow: hidden;
-    margin: 5%;
-    background-position: center;
-    height: 100px;
-    border-radius: 5%;
+.textsidecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+/* Estilo del Texto Sidecard */
+.sidecard-container
+.textsidecard
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32.36;
+    font-weight: bold;                           color: #625A4D;  
 }
 
 .sidecard-container
@@ -593,9 +585,18 @@ a {
     font-size: 16px;
     font-weight: normal;
     color: #1F1300;
-    margin: 2% 5% 2% 5%;
+    margin: 5%;
     width: fit-content;
     text-decoration: none;
+}
+
+.sidecard-container
+.textsidecard
+p {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    font-weight: normal;
+    color: #1F1300;
 }
 
 .sidecard-container
@@ -603,14 +604,16 @@ a {
     color: #1F1300;
 }
 
-/* Imagenes para el artículo */
-.textoarticulo-container
-.center-container {
+/* Descripción de la prevención de pérdidas */
+.lossprevention
+.descripcionlossprevencion {
     background-color: #F8F9FA;
-    border: 1px, solid, red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.center-container
+.descripcionlossprevencion
 .imgcenter {
     width: 100%;
     height: 25rem;
@@ -618,14 +621,52 @@ a {
     object-fit: cover;
 }
 
-.imgcenter
-figure .piefoto {
+/* Texto Descripción de la prevención de pérdidas */
+.lossprevention
+.descripcionlossprevencion
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 52.36;
+    font-weight: bold;
     color: #1F1300;
-    font-family: "Roboto Slab", sans-serif;
-    font-size: 16px;
 }
 
-.center-container
+.lossprevention
+.descripcionlossprevencion
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32.36;
+    font-weight: bold;                            color: #625A4D;  
+}
+
+.lossprevention
+.descripcionlossprevencion
+p {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    font-weight: normal;
+    color: #1F1300;
+}
+
+.lossprevention
+.descripcionlossprevencion
+em {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    font-weight: 700;
+    color: #1F1300;
+}
+
+/* ----- Página: Sistemas de detección----- */
+/* Explicación de los EAS */
+/* Estilo del Container */
+.textoarticulo-container
+.explicacioneas {
+    background-color: #F8F9FA;
+}
+
+/* Estilo de la imagen */
+.explicacioneas
 .imgcenter-medio {
     width: 100%;
     height: 25rem;
@@ -633,112 +674,226 @@ figure .piefoto {
     object-fit: cover;
 }
 
-.center-container
+/* Estilo del texto */
+.textoarticulo-container
+.explicacioneas
+p {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    font-weight: normal;
+    color: #1F1300;
+}
+
+.textoarticulo-container
+.explicacioneas
+a {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    font-weight: 600;
+    color: #8EB30A;
+    font-style: italic;
+}
+
+.textoarticulo-container
+.explicacioneas
+em {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    font-weight: 600;
+    color: #1F1300;
+}
+
+.textoarticulo-container
+.explicacioneas
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32.36;
+    font-weight: bold;
+    color: #625A4D;
+}
+
+/* ----- Página: Sistemas de detección----- */
+/* Tipos de tecnologías */
+/* Estilo del Container */
+.textoarticulo-container
 .tecnologiaseas {
     background-color: #F8F9FA;
 }
 
-.lineasguia {
-    border: 1px, solid, red;
-}
-
+/* Estilo del texto */
+.textoarticulo-container
 .tecnologiaseas
-.tecnologiacard-leftup {
-    height: fit-content;
-    border-radius: 25% 25% 0% 25%;
-    filter: drop-shadow(#8F8980 0.5rem 0.5rem 10px);
-    padding: 40px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px, solid, #E9E7E6;
-    background-color: #E9E7E6;
-    position: relative;
-    z-index: 1;
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32.36;
+    font-weight: bold;
+    color: #625A4D;
 }
 
+
+/* Estilo de la img */
 .tecnologiaseas
-.tecnologiacard-leftdown {
-    height: fit-content;
-    border-radius: 25% 0% 25% 25%;
-    filter: drop-shadow(#8F8980 0.5rem 0.5rem 10px);
-    padding: 40px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px, solid, #E9E7E6;
-    background-color: #E9E7E6;
-    position: relative;
-    z-index: 1;
-}
-
-.tecnologiaseas
-.tecnologiacard-rightup {
-    height: fit-content;
-    border-radius: 25% 25% 25% 0%;
-    filter: drop-shadow(#8F8980 0.5rem 0.5rem 10px);
-    padding: 40px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px, solid, #E9E7E6;
-    background-color: #E9E7E6;
-    position: relative;
-    z-index: 1;
-}
-
-.tecnologiaseas
-.tecnologiacard-rightdown {
-    height: fit-content;
-    border-radius: 0% 25% 25% 25%;
-    filter: drop-shadow(#8F8980 0.5rem 0.5rem 10px);
-    padding: 40px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px, solid, #E9E7E6;
-    background-color: #E9E7E6;
-    position: relative;
-    z-index: 1;
-}
-
-.tecnologiaseas
-.tecnologiacard-leftup:hover {
-    transform: translateY(-5px);
-}
-
-.tecnologiaseas
-.tecnologiacard-rightup:hover {
-    transform: translateY(-5px);
-}
-
-.tecnologiaseas
-.tecnologiacard-leftdown:hover {
-    transform: translateY(-5px);
-}
-
-.tecnologiaseas
-.tecnologiacard-rightdown:hover {
-    transform: translateY(-5px);
-}
-
-.tecnologiacard
-.tecnologiacard-title {
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tecnologiaseas
-.tecnologiacard-img {
-    background-image: url(/images/tecnologias-eas-vector2.png);
+.img-tecnologiaseas {
     background-color: #F8F9FA;
-    filter: drop-shadow(#8F8980 0rem 0rem 10px);
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    border-radius: 100%;
-    height: 300px;
+    max-width: 100%;
+    height: 29rem;
+    border-radius: 2%;
+    object-fit: cover;
+}
+
+/* Estilo del accordion */
+#tecnologiaseas-accordion 
+.accordion-body {
+    font-family: "Roboto Slab", sans-serif;
+    background-color: #F8F9FA;
+    padding: 15px;
+    font-size: 16px;
+    color: #1F1300;
+}
+
+#tecnologiaseas-accordion
+.accordion-item {
+    border: 1px solid #625A4D;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#tecnologiaseas-accordion
+.accordion-header {
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 0;
+}
+
+#tecnologiaseas-accordion
+.accordion-button.collapsed {
+    background-color: #BCB8B3;
+    color: #1F1300;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#tecnologiaseas-accordion
+.accordion-button:not(.collapsed) {
+    background-color: #8EB30A;
+    color: #1F1300;
+    border-color: #E2E73E;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* ---------- Página: Sistemas de Detección ------- */
+/* Banner de Contacto */
+/* Estilo del Container */
+.textoarticulo-container
+.sistemas-bannercontacto {
+    background-image: url(/images/banner-sistemascontacto.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
     object-fit: fill;
-    width: 300px;
+    width: 100%;
+    height: 500px;
+}
+
+/* Estilo del texto */
+.sistemas-bannercontacto
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 52.36;
+    color: #E9E7E6;
+}
+
+.sistemas-bannercontacto
+p,
+a {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    color: #E9E7E6;
+}
+
+.sistemas-bannercontacto
+.buttonSecundario-claro {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20px; 
+    background-color: none; 
+    color: #352B1A;
+    padding: 8px 5px;
+    border-radius: 6px;
+    border: 1px solid #D2D0CC;
+}
+
+.sistemas-bannercontacto
+.buttonSecundario-claro:hover { 
+    background-color: #D2D0CC ; 
+    color: #352B1A;
+}
+
+/* ---------- Página: Sistemas de Detección ------- */
+/* Beneficios de los Sistemas EAS */
+/* Estilo del Container */
+.textoarticulo-container
+.articulo-beneficioseas {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 2045px;
-    left: 670px;
-    z-index: 10;
+}
+
+.articulo-beneficioseas 
+.icon-beneficios {
+    width: 25px;
+    height: 25px;
+    columns: #625A4D;
+}
+
+/* Estilo de la imagen */
+.articulo-beneficioseas 
+.img-beneficios {
+    background-image: url(/images/sistemas-eas-beneficios.jpeg);
+    background-size: cover;
+    overflow: hidden;
+    margin: 2%;
+    background-position: center;
+    max-width: 100%;
+    height: 90%;
+    border-radius: 2%;
+    object-fit: cover;
+}
+
+/* Estilo del texto */
+.textoarticulo-container
+.articulo-beneficioseas
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32.36;
+    font-weight: bold;
+    color: #625A4D;
+}
+
+.textoarticulo-container
+.articulo-beneficioseas
+h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24;
+    font-weight: 700;
+    color: #1F1300;
+}
+
+.textoarticulo-container
+.articulo-beneficioseas
+p {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    font-weight: normal;
+    color: #1F1300;
+}
+
+.textoarticulo-container
+.articulo-beneficioseas
+em {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    font-weight: 700;
 }
