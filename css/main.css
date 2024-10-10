@@ -984,3 +984,14 @@ p {
     font-weight: normal;
     color: #625A4D;
 }
+
+.paginacionsistemas
+.paginacion-contenedorind {
+    background-color: #F8F9FA;
+    padding: 1%;
+}
+
+.paginacionsistemas
+.paginacion-contenedorind:hover {
+    border: 1px solid #625A4D;
+}
