@@ -609,6 +609,12 @@ p {
     align-items: center;
 }
 
+@media (max-width: 1080px) {
+    .sidecard-1080 {
+      display: none;
+    }
+  }
+
 .descripcionlossprevencion
 .imgcenter {
     width: 100%;
@@ -877,6 +883,13 @@ a {
     .articulo-beneficioseas 
     .img-beneficios {
         height: 13rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 810px) {
+    .articulo-beneficioseas 
+    .img-beneficios {
+        height: 26rem;
     }
 }
 
