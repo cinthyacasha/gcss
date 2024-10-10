@@ -952,3 +952,35 @@ em {
     font-size: 20;
     font-weight: 700;
 }
+
+/* ---------- Página: Sistemas de Detección ------- */
+/* Paginación para otros sistemas */
+/* Estilo del Container */
+.textoarticulo-container
+.paginacionsistemas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+}
+
+.paginacionsistemas
+.icons-paginacion {
+    color: #1F1300;
+}
+
+.paginacionsistemas
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32.36px;
+    font-weight: bold;
+    color: #1F1300;
+}
+
+.paginacionsistemas
+p {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #625A4D;
+}
