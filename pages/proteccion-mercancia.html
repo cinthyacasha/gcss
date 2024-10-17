@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Este es el código para enlazar el CSS con el HTML -->
-        <link href="/css/main.css" rel="stylesheet" type="text/css" />
+        <link rel="preload" href="/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" />
 
         <!-- Este es el código para agregar favicon. Se pueden cambiar las dimensiones por: 16x16, 32x32, 48x48, 64x64  -->
         <link rel="icon" href="/images/icon.png" sizes="16x16" type="image/png" />
@@ -172,7 +172,7 @@
                                             <div class="sidecard-container m-0">
                                                 <div class="textsidecard">
                                                     <!-- Título -->
-                                                    <a href="/pages/proteccion-mercancia.html">
+                                                    <a href="/pages/sistemas-deteccion.html">
                                                         <div>
                                                             <p class="fw-bold mb-2 text-top">
                                                                 Sistemas de detección
@@ -275,7 +275,7 @@
                                             Tecnologías clave para la protección de mercancías
                                         </h3>
                                     </div>
-                                    <div class="col-12 col-xl-10 text-center text-lg-start overflow-hidden d-none d-md-block">
+                                    <div class="col-12 col-xl-10 text-center text-lg-start overflow-hidden d-none d-md-block mb-xl-5">
                                         <div class="row justify-content-xl-center">
                                             <!-- Etiquetas RFID y EAS -->
                                             <div class="col-12 col-md-4 col-lg-4">
@@ -341,7 +341,7 @@
                                     </div>
                                     <!-- Código para un carrousel en versión móbile -->
                                     <div id="smallScreenSlider" class="carousel slide d-md-none" data-bs-ride="carousel">
-                                        <div class="carousel-inner">
+                                        <div class="carousel-inner mb-4">
                                             <!-- Etiquetas RFID y EAS -->
                                             <div class="carousel-item active">
                                                 <div class="col-12 px-3">
@@ -410,6 +410,31 @@
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Banner de contacto -->
+                <section class="px-2 bsb-overlay proteccionmerchbanner">
+                    <div class="container py-5">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-9 col-lg-8 col-xl-7 col-xxl-6 py-5">
+                                <h2 class="display-5 mb-3 text-center"> 
+                                    ¿Listo para proteger tu inventario?
+                                </h2>
+                                <p class="fs-4 mb-3 text-center">
+                                    Nuestros sistemas de protección de mercancías están diseñados para adaptarse a tus necesidades y prevenir pérdidas.
+                                </p>
+                                <p class="fs-4 mb-5 text-center">
+                                    Contáctanos y descubre la solución perfecta para proteger tu inventario.
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="/pages/contactanos.html">
+                                        <button type="button" class="buttonSecundario-claro btn-lg bsb-btn-3xl px-3">
+                                            Solicita una consulta
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
