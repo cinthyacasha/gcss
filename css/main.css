@@ -1379,3 +1379,46 @@ em {
 .icon-protmerch {
     color: #625A4D;
 }
+
+/* ---------- Página: Protección de mercancías ------- */
+/* Paginación para otros sistemas */
+/* Estilo del Container */
+.art-proteccionmercancias
+.paginacionsistemas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+}
+
+.paginacionsistemas
+.icons-paginacion {
+    color: #1F1300;
+}
+
+.paginacionsistemas
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32.36px;
+    font-weight: bold;
+    color: #1F1300;
+}
+
+.paginacionsistemas
+p {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #625A4D;
+}
+
+.paginacionsistemas
+.paginacion-contenedorind {
+    background-color: #F8F9FA;
+    padding: 1%;
+}
+
+.paginacionsistemas
+.paginacion-contenedorind:hover {
+    border: 1px solid #625A4D;
+}
