@@ -1102,3 +1102,99 @@ em {
     font-weight: 700;
     color: #1F1300;
 }
+
+/* ----- Página: Protección de mercancías ----- */
+/* Tecnologías clave para la protección */
+/* Estilo del container */
+.art-proteccionmercancias
+.tecclaveproteccion {
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.art-proteccionmercancias
+.tecclaveproteccion 
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32.36;
+    font-weight: bold;                          color: #625A4D;  
+}
+
+.art-proteccionmercancias
+.tecclaveproteccion 
+p {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    font-weight: normal;
+    color: #1F1300;
+}
+
+.art-proteccionmercancias
+.tecclaveproteccion 
+em {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    font-weight: 700;
+    color: #1F1300;
+}
+
+.tecclaveproteccion
+.teccard {
+    background-color: #F8F9FA;
+    border-radius: 5%;
+}
+
+.teccard
+.teccard-body {
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    height: 500px;
+}
+
+@media (max-width: 576px) {
+    .teccard
+    .teccard-body {
+        height: 450px;
+    }
+
+    .teccard-body
+    .teccard-icon {
+    height: 130px;
+    width: 100%;
+}
+
+}
+
+@media (min-width: 577px) and (max-width: 810px) {
+    .teccard
+    .teccard-body {
+        height: 600px;
+    }
+}
+
+.teccard-body
+.teccard-icon {
+    height: 190px;
+    width: 100%;
+}
+
+.teccard-body
+.teccard-titulo {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 24px;
+    color: #625A4D;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teccard-body
+.teccard-text {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 18px;
+    color: #1F1300;
+}
