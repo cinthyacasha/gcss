@@ -513,6 +513,18 @@ div {
     height: 500px;
 }
 
+@media (max-width: 576px) {
+    .sistemasdeteccion-container {
+        height: 430px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 810px) {
+    .sistemasdeteccion-container {
+        height: 370px;
+    }
+}
+
 .sistemasdeteccion-container
 p {
     font-family: "Roboto Slab", sans-serif;
@@ -1023,6 +1035,18 @@ p {
     height: 500px;
 }
 
+@media (max-width: 576px) {
+    .proteccionmercancias {
+        height: 430px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 810px) {
+    .proteccionmercancias {
+        height: 350px;
+    }
+}
+
 .proteccionmercancias
 p {
     font-family: "Roboto Slab", sans-serif;
@@ -1465,3 +1489,12 @@ h2 {
     font-weight: bold;
     color: #E9E7E6;
 }
+
+/* ----- Página: Inventaros inteligentes ----- */
+/* Artículo */
+/* Estilo del container */
+.invinteligente-container {
+    background-color: #F8F9FA;
+    height: fit-content;
+}
+
