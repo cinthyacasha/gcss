@@ -1498,3 +1498,51 @@ h2 {
     height: fit-content;
 }
 
+/* Descripción del inventario inteligente */
+.invinteligente-container
+.descripcioninventario {
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcioninventario
+.imgcenter {
+    width: 100%;
+    height: 25rem;
+    border-radius: 1%;
+    object-fit: cover;
+}
+
+/* Texto Descripción inventario inteligente */
+.invinteligente-container
+.descripcioninventario
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    color: #1F1300;
+}
+
+.invinteligente-container
+.descripcioninventario
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;                            color: #625A4D;  
+}
+
+.invinteligente-container
+.descripcioninventario
+p {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: normal;
+    color: #1F1300;
+}
+
+.invinteligente-container
+.descripcioninventario
+em {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 700;
+    color: #1F1300;
+}
