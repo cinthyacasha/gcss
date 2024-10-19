@@ -1640,6 +1640,13 @@ h3 {
     }
 }
 
+@media (min-width: 577px) and (max-width: 810px) {
+    .sistemarfid
+    .img-tecnologiaseas {
+        height: 28rem;
+    }
+}
+
 /* Estilo del accordion */
 #inventintel-accordion 
 .accordion-body {
