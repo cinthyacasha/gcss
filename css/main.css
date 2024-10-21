@@ -1405,6 +1405,8 @@ em {
 
 .protecmerchcomprar
 .icon-protmerch {
+    width: 25px;
+    height: 25px;
     color: #625A4D;
 }
 
@@ -1694,4 +1696,105 @@ em {
     border-color: #E2E73E;
     font-size: 24px;
     font-weight: 500;
+}
+
+/* ----- Página: Inventario Inteligente ----- */
+/* Banner Contacto */
+/* Estilo del container */
+.invinteligente-container
+.inventinelbanner {
+    background-image: url(/images/inventintel-banner.jpeg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: fill;
+    width: 100%;
+    height: 550px;
+}
+
+@media (max-width: 576px) {
+    .invinteligente-container
+    .inventinelbanner  {
+    height: 600px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 810px) {
+    .invinteligente-container
+    .inventinelbanner  {
+    height: 560px;
+    }
+}
+
+/* Estilo del texto */
+.inventinelbanner
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 52.36;
+    color: #E9E7E6;
+}
+
+.inventinelbanner
+p,
+a {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20;
+    color: #E9E7E6;
+}
+
+.inventinelbanner
+.buttonSecundario-claro {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20px; 
+    background-color: none; 
+    color: #352B1A;
+    padding: 8px 5px;
+    border-radius: 6px;
+    border: 1px solid #D2D0CC;
+}
+
+.inventinelbanner
+.buttonSecundario-claro:hover { 
+    background-color: #D2D0CC ; 
+    color: #352B1A;
+}
+
+/* ----- Página: Inventario Inteligente ----- */
+/* Ventajas del Inventario Inteligente */
+/* Estilo del container */
+.invinteligente-container
+.ventajasinventintel {
+    background-color: #F8F9FA;
+}
+
+.invinteligente-container
+.ventajasinventintel
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    color: #625A4D;
+}
+
+.invinteligente-container
+.ventajasinventintel
+p,
+span {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #1F1300;
+}
+
+.invinteligente-container
+.ventajasinventintel
+em {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 700;
+}
+
+.ventajasinventintel
+.icon-inventintel {
+    width: 25px;
+    height: 25px;
+    color: #625A4D;
 }
