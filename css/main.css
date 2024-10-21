@@ -1405,6 +1405,8 @@ em {
 
 .protecmerchcomprar
 .icon-protmerch {
+    width: 25px;
+    height: 25px;
     color: #625A4D;
 }
 
@@ -1755,4 +1757,44 @@ a {
 .buttonSecundario-claro:hover { 
     background-color: #D2D0CC ; 
     color: #352B1A;
+}
+
+/* ----- Página: Inventario Inteligente ----- */
+/* Ventajas del Inventario Inteligente */
+/* Estilo del container */
+.invinteligente-container
+.ventajasinventintel {
+    background-color: #F8F9FA;
+}
+
+.invinteligente-container
+.ventajasinventintel
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    color: #625A4D;
+}
+
+.invinteligente-container
+.ventajasinventintel
+p,
+span {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #1F1300;
+}
+
+.invinteligente-container
+.ventajasinventintel
+em {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 700;
+}
+
+.ventajasinventintel
+.icon-inventintel {
+    width: 25px;
+    height: 25px;
+    color: #625A4D;
 }
